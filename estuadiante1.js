@@ -12,3 +12,5 @@ router.get('./:id', (req,res)=>{
     res.send("Te mando al id:"+req.params.id)
 
 })
+
+module.exports = router;
